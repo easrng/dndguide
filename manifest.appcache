@@ -2,8 +2,8 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-https://code.jquery.com/jquery-1.12.1.min.js
-https://www.google.com/jsapi
+jquery-1.12.1.min.js
+jsapi.js
 applab/fontawesome-webfont.woff2
 applab/applab-api.js
 code.js
