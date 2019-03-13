@@ -3,7 +3,6 @@ CACHE MANIFEST
 CACHE:
 index.html
 jquery-1.12.1.min.js
-jsapi.js
 applab/fontawesome-webfont.woff2
 applab/applab-api.js
 code.js
