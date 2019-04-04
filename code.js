@@ -1,4 +1,3 @@
-if(!!localstorage.getItem("app")){
 function iosapp(){
   window.open("profile_3c676bb87383b937bab9413c7c5b0810_signed.mobileconfig");
   localstorage.setItem("app", true)
@@ -6,7 +5,6 @@ function iosapp(){
 var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 if(iOS){
   (confirm("Get iOS app?")?iosapp:function (){})();
-}
 }
 /*ESR SCALE MAGIC*/
 function resize(){document.body.style.setProperty('--vmin-pixels', window.innerHeight < window.innerWidth?window.innerHeight:window.innerWidth);};resize();window.onresize=resize;
